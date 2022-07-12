@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./css/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Hakki Store</div>
+        <ul class="navbar">
+            <li class="nav-item">
+                <a href="#" class="item-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="item-link">Products</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="item-link">Store</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="item-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="item-link">Contact</a>
+            </li>
+        </ul>
+        <div class="cart">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </nav>
+    <div class="container">
+       
+    <div class="table none">
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Product</th>
+                    <th>Qte</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody id="body-table">
+            </tbody>
+        </table>
+    </div>
+
+    <!-- template for card product -->
+    <template id="cart-item">
+        <div class="card">
+            <div class="card-img">
+                <img class='image' src="" alt="">
+            </div>
+            <div class="card-body">
+                <h4></h4>
+                <p class="description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis itaque ipsum eius sint fugiat veritatis natus a eos odio maiores.
+                </p>
+            </div>
+            <div class="card-footer">
+                <button class="btn">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+    </template>
+    <!-- template for cart table -->
+    <template id="cart-table">
+        
+            <tr>
+                <td class="first">1</td>
+                <td class="second">1</td>
+                <td class="third">1</td>
+                <td class="fourth">1</td>
+            </tr>
+       
+        
+    </template>
+
+
+    </div>
+    <footer>            
+        <div class="copyright">           
+            Hakki&copy;<span id="year"></span>           
+        </div>        
+    </footer>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
